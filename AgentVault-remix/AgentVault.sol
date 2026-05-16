@@ -2,14 +2,12 @@
 pragma solidity 0.8.24;
 
 import "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
-import "./libraries/ReputationMath.sol";
+import "./ReputationMath.sol";
 
 /// @title AgentVault
 /// @notice Smart contract wallet for AI Agents with optimistic execution and stakeholder veto
 contract AgentVault is ReentrancyGuard {
-    // ============================================================
-    // MODULE 5: AUDIT LOG (events defined at contract top)
-    // ============================================================
+
 
     enum ProposalType {
         AuthorizeAgent,

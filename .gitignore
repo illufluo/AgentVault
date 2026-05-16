@@ -8,3 +8,6 @@ typechain-types/
 
 *.zip
 .DS_Store
+
+PROGRESS.md
+AGENT.md
